@@ -9,9 +9,12 @@ This data set includes the following:
 * __Number__ is the number of vertebrae involved.
 * __Start__ is the starting vertebrae level of the surgery.
 
-Note that for tree visualizations you should install the following libraries:
-* GraphViz: you can find the installation instructions ![here](http://www.graphviz.org/download/) (remember to add the _bin_ path to your PATH in system environment variables).
-* Pydot: by "conda install pydot-ng" on Anaconda or using pip: "pip install pydot".
+Note that for tree visualizations you should do the following:
+* Install GraphViz: you can find the installation instructions ![here](http://www.graphviz.org/download/) (remember to add the _bin_ path to your PATH in system environment variables).
+* You also need import the path in your notebook, as the method used for visualizing the tree needs to access the "dot.exe" exutable: you can do this by:
+`import os`
+`os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz2.38/bin/'`
+* Pydot: by `conda install pydot-ng` on Anaconda or using pip: `pip install pydot`.
 
 The sources used to create this tutorial are the following:
 
