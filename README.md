@@ -9,6 +9,10 @@ This data set includes the following:
 * __Number__ is the number of vertebrae involved.
 * __Start__ is the starting vertebrae level of the surgery.
 
+Note that for tree visualizations (on Anaconda) you should install the following libraries:
+* GraphViz: by "conda install graphviz" (remember to add the _bin_ path to your PATH in system environment variables).
+* Pydot: by "conda install pydot-ng".
+
 The sources used to create this tutorial are the following:
 
   1.  Udemy's course Python for Data Science and Machine Learning Bootcamp.
