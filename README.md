@@ -14,7 +14,7 @@ Note that for tree visualizations you should do the following:
 * You also need import the path in your notebook, as the method used for visualizing the tree needs to access the "dot.exe" executable: you can do this by:
 `import os`
 `os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz2.38/bin/'`
-* Pydot: by `conda install pydot-ng` on Anaconda or using pip: `pip install pydot`.
+* Install Pydot: by `conda install pydot-ng` on Anaconda or using pip: `pip install pydot`.
 
 The sources used to create this tutorial are the following:
 
